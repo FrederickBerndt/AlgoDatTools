@@ -20,8 +20,7 @@ def find_perf_hash(M, n, m):
     a = 0
     notperfect = True
     while notperfect:
-        a += 1g
-
+        a += 1
         ##TestIfPerfect
         probeSet = set()
         notperfect = False
