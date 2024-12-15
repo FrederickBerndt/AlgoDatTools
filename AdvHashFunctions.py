@@ -17,7 +17,6 @@ def universal_hashfk(a, b, m):
     return dot_ab % m
 
 def find_perf_hash(M, n, m):
-    # YOUR CODE HERE
     a = 0
     notperfect = True
     while notperfect:
